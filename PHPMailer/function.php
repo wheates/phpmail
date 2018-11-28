@@ -39,13 +39,13 @@
     $mail->FromName = '发件人';
 
     //smtp登录的账号 这里填入字符串格式的qq号即可
-    $mail->Username ='827618212';
+    $mail->Username ='qqNumber';
 
     //smtp登录的密码 使用生成的授权码（就刚才叫你保存的最新的授权码）
-    $mail->Password = 'ygbuddbgihdhbcgb';
+    $mail->Password = 'qqPassword';
 
     //设置发件人邮箱地址 这里填入上述提到的“发件人邮箱”
-    $mail->From = '827618212@qq.com';
+    $mail->From = 'qqNumber@qq.com';
 
     //邮件正文是否为html编码 注意此处是一个方法 不再是属性 true或false
     $mail->isHTML(true); 

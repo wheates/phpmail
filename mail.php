@@ -4,7 +4,7 @@
 
 	$name = $_POST['name'];
 	$message =$_POST['message'];
-	$email="827618212@qq.com";
+	$email="qqNumber@qq.com"; //收件人邮箱
 	$mailcontent = $name." 给您发来留言，</br>留言内容为：".$message ;
 	// 参数一：收件人信箱，二：标题，三：内容
 	$flag = sendMail($email,$name.'的留言',$mailcontent);
